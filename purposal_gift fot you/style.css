@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(169, 16, 16, 0.804);
+ 
+}
+
+#note {
+  font-size: 1.2rem;
+    margin-top: 1px;
+    margin-left: 11px;
+    text-shadow: 2.3px 2.2px 4px red;
+}
+
+.display {
+  display: none;
+}
+.decision {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-top: 114px;
+}
+#break {
+  font-size: 3.5rem;
+  margin-top: 16px;
+  font-weight: 400;
+text-align: center;
+  margin-left: 11px;
+  text-shadow: 1.3px 1.2px 2px red;
+  animation: textAnimation 2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.show {
+  height: 51%;
+  width: 62%;
+  margin: -7vw 8vh 2vw;
+}
+
+.cry {
+  display: none;
+}
+.okay {
+  height: 50%;
+  width: 65%;
+  margin: 10vw 7vh 13vw;
+}
+.text {
+  display: none;
+}
+
+.hello {
+  height: 50%;
+  width: 65%;
+  margin: 10vw 7vh 13vw;
+}
+.purpose {
+  height: 54%;
+    width: 73%;
+    margin: 21vw 6vh -120vw;
+}
+
+.message {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: rgba(76, 49, 71, 0.772);
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+  margin-left: 2%;
+  margin-top: 97px;
+}
+#then {
+  margin-top: 50px;
+  font-size: 2.8rem;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+}
+#now {
+  margin-top: 50px;
+  font-size: 3.5rem;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+}
+
+.myBtn {
+  margin-left: 28%;
+  margin-right: auto;
+  margin-top: 8vh;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+  cursor: pointer;
+  padding: 16px;
+  width: 166px;
+  transition: color 0.3s ease-in-out;
+  color: black;
+}
+.yesBtn {
+  width: 83px;
+  padding: 7px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.noBtn {
+  width: 83px;
+  padding: 7px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0);
+  }
+  25% {
+    opacity: 0.3;
+    font-weight: 500;
+    transform: translateY(0) scale(0.3);
+  }
+  50% {
+    opacity: 0.5;
+    font-weight: 400;
+    transform: translateY(0) scale(0.5);
+  }
+  75% {
+    opacity: 0.5;
+    font-weight: 600;
+    transform: translateY(0) scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    font-weight: 800;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    color: black;
+    opacity: 0;
+    transform: translateY(0) scale(0);
+  }
+  25% {
+    opacity: 0.3;
+    color: black;
+    font-weight: 500;
+    transform: translateY(0) scale(0.3);
+  }
+  50% {
+    opacity: 0.5;
+    color: black;
+    font-weight: 400;
+    transform: translateY(0) scale(0.5);
+  }
+  75% {
+    opacity: 0.5;
+    color: black;
+    font-weight: 600;
+    transform: translateY(0) scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    color: black;
+    font-weight: 800;
+    transform: translateY(0) scale(1);
+  }
+}@media(min-width: 768px){
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(169, 16, 16, 0.804);
+}
+
+#note {
+  font-size: 2.5rem;
+    margin-top: 4px;
+    margin-left: 12px;
+    text-shadow: 2.3px 2.2px 3px red;
+}
+
+.decision {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+     margin-top: 15px;
+  
+}
+
+#break {
+  font-size: 1.5rem;
+  margin-top: 16px;
+  font-weight: 400;
+
+  margin-left: 11px;
+  text-shadow: 1.3px 1.2px 2px red;
+}
+
+.show {
+  height: 30%;
+  width: 33%;
+  margin: -7vw 48vh 2vw;
+}
+
+.cry {
+  display: none;
+}
+
+.okay {
+  height: 29%;
+  width: 23%;
+  margin: 2vw 48vh 2vw;
+}
+
+.text {
+  display: none;
+}
+
+.hello {
+  height: 1%;
+  width: 24%;
+  margin: 0vw 60vh 4vw;
+}
+
+.purpose {
+  height: 21%;
+    width: 25%;
+  margin: 5vw 38vh 12vw;
+}
+
+.message {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: rgba(76, 49, 71, 0.772);
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+  margin-left: 25%;
+  margin-top: 82px;
+}
+
+#then {
+  margin-top: -60px;
+  font-size: 3.0rem;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+}
+
+#now {
+  margin-top: 50px;
+  margin-left: 33%;
+  font-size: 3.5rem;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+}
+
+.myBtn {
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: 8vh;
+  animation: textAnimation 1.2s infinite cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.5s;
+  cursor: pointer;
+  padding: 16px;
+  width: 166px;
+  transition: color 0.3s ease-in-out;
+  color: black;
+}
+
+.yesBtn {
+  width: 25%;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.noBtn {
+  width: 25%;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+ }}
